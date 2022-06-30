@@ -16,7 +16,7 @@ function addArrays(arr1, arr2) {
   return sum;
 }
 
-describe("Array summation test", () => {
+describe("Array summation test.", () => {
   it("It should return [11, 42, 480] when [12, 0, -20] and [-1, 42, 500] are passed", () => {
     expect(addArrays([12, 0, -20], [-1, 42, 500])).toEqual([11, 42, 480]);
   });
